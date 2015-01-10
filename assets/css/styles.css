@@ -1,0 +1,14 @@
+body {
+  padding: 60px;
+}
+@media (max-width: 480px) {
+  #welcome {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .sidebar .sidebar-fixed {
+    position: fixed;
+    top: 70px;
+  }
+}

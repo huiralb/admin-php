@@ -1,0 +1,23 @@
+Time : 11:34:29
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'personalia' in 'field list'
+Raw SQL : INSERT INTO admin(adminId, username, password, type, displayname) VALUES(3,personalia, 123456, U, personalia)
+
+Time : 11:33:31
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'personalia' in 'field list'
+Raw SQL : INSERT INTO admin(adminId, username, password, type, displayname) VALUES(null,personalia, 123456, U, personalia)
+
+Time : 11:30:17
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'personalia' in 'field list'
+Raw SQL : INSERT INTO admin VALUES(null,personalia, 123456, U, personalia)
+
+Time : 11:28:51
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list'
+Raw SQL : INSERT INTO admin VALUES(null,user, 123456, U, user)
+
+Time : 11:26:25
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user' in 'field list'
+Raw SQL : INSERT INTO admin VALUE(null,user, 123456, U, user)
+
+Time : 10:33:57
+SQLSTATE[HY000] [2002] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+

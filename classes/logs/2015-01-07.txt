@@ -1,0 +1,75 @@
+Time : 05:26:11
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = :username WHERE AdminId = :id
+
+Time : 05:14:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = :username WHERE AdminId = 23
+
+Time : 05:07:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username' WHERE AdminId = :id
+
+Time : 04:41:01
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : SELECT * FROM admin WHERE AdminId = :id
+
+Time : 04:35:59
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username', password = ':password' WHERE AdminId = :id
+
+Time : 04:29:43
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username', password = ':password' WHERE AdminId = :id
+
+Time : 04:28:58
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username', password = ':password' WHERE AdminId = :id
+
+Time : 04:27:16
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username', password = ':password' WHERE AdminId = :id
+
+Time : 04:26:32
+SQLSTATE[HY093]: Invalid parameter number: parameter was not defined
+Raw SQL : UPDATE admin SET username = ':username', password = ':password' WHERE AdminId = :id
+
+Time : 04:17:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM admin WHERE AdminId = ?' at line 1
+Raw SQL : UPDATE FROM admin WHERE AdminId = :id
+
+Time : 04:15:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM admin WHERE AdminId = ?' at line 1
+Raw SQL : UPDATE FROM admin WHERE AdminId = :id
+
+Time : 02:44:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:43:31
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:43:30
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:43:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:43:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:43:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:42:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
+
+Time : 02:41:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : DELETE FROM admin WHERE AdminId =
